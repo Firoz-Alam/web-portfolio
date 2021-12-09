@@ -75,3 +75,31 @@ footer p{
     text-align: center;
     font-size: 12px;
 }
+
+@media screen and (max-width: 600px) {
+    .half-width {
+      float: none;
+      width: 100%;
+      margin-left: 0;
+     padding-left: 0;
+    text-align: justify;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .half-width img{
+        width: 50%;
+        margin-top: 15px;
+        position: relative;
+        left: 25%;
+    }
+    p{
+        font-size: 15px;
+    }
+    .experience{
+        height: 45%;
+        width: 90%;
+        margin-left: 20px;
+    }
+  }
